@@ -1,0 +1,16 @@
+---
+title: "IBIS Introduction"
+author: "Nora Hessen"
+date: "2023-05-15"
+categories: [news, IBIS]
+---
+
+Hello!
+
+My name is Nora Hessen and I am a current 3rd year student within UW's Marine Biology department. I have been working with graduate student Sarah Tanja within the Identity, Belonging and Inquiry in Science (IBIS) program. Within our collaboration, we designed an experiment that we conducted across Winter 2022 and Spring 2023 quarters that involved DNA and RNA extractions from corals that were previously exposed to different levels of plastic leachates, in hopes to notice differences in gene expression between our treatment groups. This experience has taught me valuable information about what graduate research looks like, and the necessary steps one must take to finalize plans for research.
+
+A huge thank you is due to the UW Royalty Research Fund and the College of the Environment for funding such an amazing program that has definitely given me amazing insights into the details of research and allowed me to get my barrings within my first actual experience with research.
+
+Check out more of my future posts for more in-depth information about the research and protocols I've done with Sarah!
+
+![](images/IBIS_final_BlackOutline.png)

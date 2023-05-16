@@ -1,0 +1,17 @@
+---
+title: "About"
+image: labpicture.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/nora-anna-hessen-24b10b277/
+    - icon: github
+      text: Github
+      href: https://github.com/norahess
+---
+
+Welcome to my Undergraduate research/class blog! My name is Nora Hessen and I am a 3rd year Marine Biology student at UW's College of the Environment. This page will contain posts about current research and programs that I'm apart of, different protocols that I follow within my lab spaces, and also some class related projects and research.
+
+test
