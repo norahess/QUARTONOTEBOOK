@@ -2,8 +2,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/Lab Protocol/index.html",
       "/posts/Details about IBIS Research Project/index.html",
-      "/posts/IBIS Introduction/index.html"
+      "/posts/IBIS Introduction/index.html",
+      "/posts/Template for Posts/index.html"
     ]
   }
 ]
