@@ -3,13 +3,12 @@ title: "DNA & RNA Extraction Protocol"
 author: "Sarah Tanja"
 date: "2023-05-17"
 categories: [lab protocols, IBIS]
-image: "image.jpg"
+image: "QUICKDNA.png"
 toc: true
 toc_label: "Table of Contents" # default: Content
 toc_icon: "heart"  # corresponding Font Awesome icon name without the "fa" prefix
 toc_sticky: true   # enables sticky toc
 ---
-
 
 The aim of this protocol is to take coral fragments that have been snap-frozen in liquid nitrogen and extract both DNA for downstream archaea & bacteria microbiome 16S Microbiome Sequencing and RNA for downstream coral-host tissue Tag-seq or RNA-seq analysis.
 
@@ -96,7 +95,7 @@ This protocol relies heavily on the Zymo Research [Protocol PDF](https://files.z
 
 -   [ ] small cooler (for dry ice and samples)
 
--   [ ] ####\# dry-ice
+-   [ ] \##### dry-ice
 
     -   Biochemistry Store in hallway adjacent to Room J-014, Health Sciences Building
 
@@ -189,7 +188,7 @@ The samples originate from their 1.5mL cryo-vials, which are labelled with their
 
 Each sample will need the following 7 tubes labelled:
 
-![label-7-tubes-diagram](%7B%7B%20site.url%20%7D%7D%7B%7B%20site.baseurl%20%7D%7D/assets/images/label-tube-diagram.jpeg)
+1 bead-bashing tube,
 
 You can also label an additional qubit tube if you are moving straight from extraction to quantification.
 
@@ -201,11 +200,13 @@ The intermediate tubes and qubit tubes should be labelled with the `cryo_id` & `
 
 The **FINAL** tubes should be labelled with `cryo_id`, `DNA/RNA`, `extraction_id`, `date (ddMMMyy)`, & `initials`, such as:
 
-    1Ea
-    RNA
-    extr1
-    10APR23
-    SST
+```         
+1Ea
+RNA
+extr1
+10APR23
+SST
+```
 
 ⚠️**Important Notes! ⚠️**
 
@@ -246,10 +247,7 @@ The **FINAL** tubes should be labelled with `cryo_id`, `DNA/RNA`, `extraction_id
     2.  Using [sterilized](#sterilize) forceps, pluck out coral fragments from the cryo vial and place in the mortar until you have as much material as about the size of an M&M (roughly a 16mm diameter sphere). Material amount does not have to be precise.
     3.  Pestle the coral fragment until it is ground to a powder. Work quickly to ensure the sample remains frozen. Add more LN2 when it evaporates from the mortar. This step is challenging! LN2 evaporates very quickly and must be replenished multiple times.
 
-![pirates-jack-sparrow-in-davy-jones-locker-with-a-single-peanut](https://64.media.tumblr.com/tumblr_lzjqxk7t0K1qjhjdwo1_500.gifv)
-
-The coral is also very hard and prone to ‘squirting out’ from under the pestle, much like the gif of the peanut above!
-{.notice: }
+The coral is also very hard and prone to 'squirting out' from under the pestle, so be extra careful while grinding!
 
 ### Lyse: Bead-Bash Samples
 
@@ -290,13 +288,9 @@ OR.. alternate protocol according to Putnam Lab Members [Kevin Wong Porites Extr
 > 5.  Remove 400 μl of the supernatant and transfer to a new centrifuge tube
 > 6.  Centrifuge at 9000 rcf for 3 minutes
 > 7.  Transfer 300 μl supernatant to a new centrifuge tube and discard the old tube with pellet
-> 8.  Add 30 μl of Proteinase K digestion buffer (10:1 ratio of sample:digestion buffer), and > 15 μl of Proteinase K (2:1 ratio of digestion buffer:Proteinase K) to each sample
+> 8.  Add 30 μl of Proteinase K digestion buffer (10:1 ratio of sample:digestion buffer), and \> 15 μl of Proteinase K (2:1 ratio of digestion buffer:Proteinase K) to each sample
 > 9.  Vortex to spin down
 > 10. Add 345 μl of lysis buffer
-
-[some *citrine* text]{style="color:#E4D00A"} [some *pistachio* text]{style="color:#93C572"}
-
-[This text is highlighted in citrine.]{style="background-color:#E4D00A"} [This text is highlighted in pistachio.]{style="background-color:#93C572"}
 
 ### Purify DNA & RNA
 
