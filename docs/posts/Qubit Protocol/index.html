@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Nora Hessen">
-<meta name="dcterms.date" content="2023-05-15">
+<meta name="author" content="Sarah Tanja and Nora Hessen">
+<meta name="dcterms.date" content="2023-05-22">
 
-<title>UW Lab Note Book - Template</title>
+<title>UW Lab Note Book - Qubit RNA Broad Range Protocol</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -100,8 +100,12 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Template</h1>
-                      </div>
+      <h1 class="title">Qubit RNA Broad Range Protocol</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Lab protocols</div>
+                <div class="quarto-category">IBIS</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -110,14 +114,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Nora Hessen </p>
+               <p>Sarah Tanja and Nora Hessen </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 15, 2023</p>
+        <p class="date">May 22, 2023</p>
       </div>
     </div>
     
@@ -135,8 +139,137 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<p>The aim of this protocol is to take the extracted RNA from the <a href="https://sarahtanja.github.io/lab-book/protocols/lab/protocol-DNARNAextraction/">Dual DNA &amp; RNA Extraction Protocol</a> step and check it for <strong>integrity &amp; quality</strong>. This is a necessary quality check (QC) because we want to make sure the samples we send for sequencing actually have enough good RNA in them to sequence.</p>
+<p>The Qubit allows us to measure RNA integrity &amp; quality (IQ) extracted in our samples. For high-quality RNA, we’re looking for long and intact strands of RNA.</p>
+<section id="background" class="level2">
+<h2 class="anchored" data-anchor-id="background">Background</h2>
+<p><img src="{{ site.url }}{{ site.baseurl }}/assets/images/qbit-rna-iq.png" class="img-fluid" alt="qbit"><em>infographic sourced from <a href="https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FBID%2Fposters%2Fqubit-rna-iq-assay-fluorometric-rna-quality-assessment-poster.pdf">Thermo Fisher</a></em></p>
+<p>👀<a href="https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2FQubit_RNA_BR_Assay_UG.pdf">Qubit RNA Broad Range (BR) Assay Kit Manual</a></p>
+<p>👀<a href="https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2FQRC10210.pdf">Qubit RNA Broad Range (BR) Assay Kit Quick Reference</a></p>
+</section>
+<section id="materials-list" class="level2">
+<h2 class="anchored" data-anchor-id="materials-list">Materials List</h2>
+<ul class="task-list">
+<li><p><input type="checkbox" disabled=""><a href="https://www.thermofisher.com/order/catalog/product/Q33238?SID=srch-srp-Q33238">Qubit Fluorometer</a></p></li>
+<li><p><input type="checkbox" disabled=""><a href="https://www.thermofisher.com/order/catalog/product/Q10210">Qubit Broad Range Assay Kit</a></p><p><strong>Warning Notice:</strong> Standards must be stored in a refrigerator! Kits are stable for 6 months {: .notice–warning}</p>
+<p><strong>Danger Notice:</strong> Kit contains DMSO 67-68-5 in the RNA dye Reagent 200X concentrate, a combustible liquid that is a mild skin and eye irritant and may be absorbed into the body through the skin. If accidental contact with skin or eye happens, rinse with plenty of water, immediate medical attention is not required (according to the <a href="https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2FSDS%2FQ10210COMPONENTA_MTR-NALT_EN.pdf">SDS</a>) {: .notice–danger}</p></li>
+<li><p><input type="checkbox" disabled=""><a href="https://www.thermofisher.com/order/catalog/product/Q32856?SID=srch-srp-Q32856">Qubit Assay Tubes</a></p></li>
+<li><p><input type="checkbox" disabled="">15mL Falcon tube (to prepare working solution) 🧪</p></li>
+<li><p><input type="checkbox" disabled="">0.5mL PCR tube rack</p></li>
+<li><p><input type="checkbox" disabled="">P2 pipette + tips</p></li>
+<li><p><input type="checkbox" disabled="">P10 pipette + tips</p></li>
+<li><p><input type="checkbox" disabled="">P1000 pipette + tips</p></li>
+<li><p><input type="checkbox" disabled="">nitrile gloves 🧤</p></li>
+<li><p><input type="checkbox" disabled="">safety glasses 👓</p></li>
+<li><p><input type="checkbox" disabled="">vortexer</p></li>
+<li><p><input type="checkbox" disabled="">USB thumb-drive</p></li>
+</ul>
+</section>
+<section id="protocol" class="level2">
+<h2 class="anchored" data-anchor-id="protocol">Protocol</h2>
+<section id="quick-reference-overview" class="level3">
+<h3 class="anchored" data-anchor-id="quick-reference-overview">Quick-Reference Overview</h3>
+<p><img src="{{ site.url }}{{ site.baseurl }}/assets/images/qbit-quick.png" class="img-fluid" alt="qbit"><em>infographic sourced from <a href="https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2FQRC10210.pdf">Qubit RNA Broad Range (BR) Assay Kit Quick Reference</a></em></p>
+</section>
+<section id="advanced-prep" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-prep">Advanced Prep</h3>
+<p>Thaw samples, or aliquots of sample, on ice. Only 1uL is needed from the sample to run Qubit. This tiny amount is prone to pipetting error, which can be influenced by temperature. Make sure the aliquot you are pulling 1uL from is well thawed.</p>
+</section>
+<section id="set-up-2-assay-tubes-for-the-standards-and-1-tube-for-each-sample" class="level3">
+<h3 class="anchored" data-anchor-id="set-up-2-assay-tubes-for-the-standards-and-1-tube-for-each-sample">Set up 2 assay tubes for the standards and 1 tube for each sample</h3>
+<ul class="task-list">
+<li><input type="checkbox" disabled="">label assay tube lids</li>
+</ul>
+<p><strong>Warning Notice:</strong> Label only the cap of the assay tube, the sides need to remain clear for the fluorometer to penetrate through and read the sample {: .notice–warning}</p>
+<ul class="task-list">
+<li><input type="checkbox" disabled="">rip off sheet of foil to cover sample tube rack to protect from light</li>
+</ul>
+<p><strong>Warning Notice:</strong> Qubit RNA BR dye-reagent (component A) is light sensitive, and must be kept in the dark (tube wrapped in foil) {: .notice–warning}</p>
+</section>
+<section id="step-2.-prepare-working-solution" class="level3">
+<h3 class="anchored" data-anchor-id="step-2.-prepare-working-solution">Step 2. Prepare Working Solution</h3>
+<p><strong>tldr:</strong> For 8 samples and 2 standards, you will need 2mL of working solution, to prepare it in a 1:200 dilution of dye-reagent to buffer, pipette 10uL of Qubit dye-reagent plus 1,990uL of Qubit buffer into a 15mL falcon tube, cap &amp; invert to mix. {: .notice–success}</p>
+<ul class="task-list">
+<li><p><input type="checkbox" disabled="">calculate volume of working solution you need –&gt; <strong>( 2 x 190uL ) + (no. of samples x 199uL)</strong> <em>(ex. 2 x 190uL + 8 x 199uL) = 1,972uL round up to 2ml</em></p><blockquote class="blockquote">
+<p>standard #1 - 190uL working solution, 10uL standard</p>
+<p>standard #2 - 190uL working solution, 10uL standard</p>
+<p>sample 1 - 199uL working solution, 1uL sample</p>
+<p>sample 2 - 199uL working solution, 1uL sample</p>
+<p>sample 3 - 199uL working solution, 1uL sample</p>
+<p>.. etc.</p>
+</blockquote></li>
+<li><p><input type="checkbox" disabled="">The working solution is 1 part dye-reagent to 200 parts buffer</p><ul>
+<li><p>calculate a 1:200 dilution of dye-reagent to buffer</p></li>
+<li><p>divide working solution volume (uL) by 200 to find volume (uL) of dye-reagent <em>(ex. 2000uL / 200 = 10uL dye-reagent)</em></p></li>
+<li><p>subtract volume (uL) of dye-reagent from working solution volume to get buffer volume. <em>(ex. 2000uL - 10uL = 1990uL buffer)</em></p></li>
+</ul></li>
+<li><p><input type="checkbox" disabled="">take 15mL falcon tube, add above volumes of dye-reagent and buffer to make the final working solution volume. Cap &amp; invert falcon tube to mix.</p><p><strong>Note:</strong> The final volume in each tube must be 200 µL. Each standard tube requires 190 µL of Qubit™ working solution, and each sample tube requires anywhere from 180–199 µL. Ensure that you have sufficient Qubit™ working solution to accommodate all standards and samples, with a little ‘extra’. {: .notice–info}</p></li>
+</ul>
+</section>
+<section id="step-3.-pipette-working-solution-standards-samples-into-assay-tubes" class="level3">
+<h3 class="anchored" data-anchor-id="step-3.-pipette-working-solution-standards-samples-into-assay-tubes">Step 3. Pipette Working Solution, Standards, &amp; Samples into assay tubes</h3>
+<section id="standard-tubes" class="level4">
+<h4 class="anchored" data-anchor-id="standard-tubes">Standard tubes</h4>
+<ul class="task-list">
+<li><input type="checkbox" disabled="">Add 190uL of working solution to each standard tube</li>
+<li><input type="checkbox" disabled="">Add 10uL of standard (#1 &amp; #2) to each correspondingly labelled tube</li>
+</ul>
+</section>
+<section id="sample-tubes" class="level4">
+<h4 class="anchored" data-anchor-id="sample-tubes">Sample tubes</h4>
+<ul class="task-list">
+<li><input type="checkbox" disabled="">Add 199 uL of working solution into each sample tube</li>
+<li><input type="checkbox" disabled="">Add 1uL of sample into each correspondingly labelled tube (P2 pipette)</li>
+</ul>
+<p><strong>Warning:</strong> temperature affects pipetting accuracy, which is very important when pipetting tiny amounts (1uL!!), so make sure sample is on ice, but well-thawed. {: .notice–warning}</p>
+</section>
+</section>
+<section id="step-4.-vortex-standards-and-samples-for-23-seconds-and-let-sit-at-room-temperature-for-2-minutes" class="level3">
+<h3 class="anchored" data-anchor-id="step-4.-vortex-standards-and-samples-for-23-seconds-and-let-sit-at-room-temperature-for-2-minutes">Step 4. Vortex standards and samples for 2–3 seconds and let sit at room temperature for 2 minutes</h3>
+</section>
+<section id="step-5.-read-samples" class="level3">
+<h3 class="anchored" data-anchor-id="step-5.-read-samples">Step 5. Read Samples</h3>
+<ul class="task-list">
+<li><input type="checkbox" disabled="">Select RNA Broad Range Assay on the Qubit® 2.0 Fluorometer to calibrate with standards</li>
+</ul>
+<p><strong>Warning Notice:</strong> Qubit™ assays delivers optimal performance when all solutions are at room temperature; temperature fluctuations can influence the accuracy of the assay. To minimize temperature fluctuations, insert all assay tubes into the Qubit™ Fluorometer only for as much time as it takes for the instrument to measure the fluorescence; the Qubit™ Fluorometer can raise the temperature of the assay solution significantly, even over a period of a few minutes. Do not hold the assay tubes in your hand before reading because this warms the solution and results in a low reading. {: .notice–warning}</p>
+<ul class="task-list">
+<li><p><input type="checkbox" disabled="">After calibration, read the samples with the same RNA Broad Range Assay selection on the Qubit Fluorometer. Cross your fingers they are in desired range 🤞</p></li>
+<li><p><input type="checkbox" disabled="">Record RNA IQ values</p><blockquote class="blockquote">
+<hr>
+<table class="table">
+<thead>
+<tr class="header">
+<th>sample</th>
+<th>qubit-rna-iq</th>
+<th>qubit-run-date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</blockquote></li>
+<li><p><input type="checkbox" disabled="">Download RNA IQ values using USB thumb-drive</p></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

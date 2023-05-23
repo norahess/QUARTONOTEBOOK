@@ -2,7 +2,7 @@
 title: "IBIS Introduction"
 author: "Nora Hessen"
 date: "2023-05-15"
-categories: [news, IBIS]
+categories: [News, IBIS]
 ---
 
 Hello!

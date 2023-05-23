@@ -1,6 +1,6 @@
 ---
 title: "Qubit RNA Broad Range Protocol"
-author: "Sarah Tanja"
+author: "Sarah Tanja and Nora Hessen"
 date: "2023-05-22"
 categories: [Lab protocols, IBIS]
 image: "QUBIT.png"

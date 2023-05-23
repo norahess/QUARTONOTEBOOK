@@ -1,0 +1,7 @@
+---
+title: "Takeaways from IBIS"
+author: "Nora Hessen"
+date: "2023-05-23"
+categories: [IBIS]
+image: "image.jpg"
+---

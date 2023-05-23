@@ -2,11 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/Extraction Data/index.html",
+      "/posts/Takeaways from IBIS/index.html",
+      "/posts/Qubit Protocol/index.html",
       "/posts/Lab Protocol/index.html",
       "/posts/Details about IBIS Research Project/index.html",
-      "/posts/IBIS Introduction/index.html",
-      "/posts/Qubit Protocol/index.html",
-      "/posts/Template for Posts/index.html"
+      "/posts/IBIS Introduction/index.html"
     ]
   }
 ]
