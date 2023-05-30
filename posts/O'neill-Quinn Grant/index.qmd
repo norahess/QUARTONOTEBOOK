@@ -1,0 +1,77 @@
+---
+title: "O'neill-Quinn Grant"
+author: "Nora Hessen"
+date: "2023-05-25"
+categories: [Grants]
+image: "big-w.jpg"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r instructions}
+# We are offering support for undergraduate student experiential learning opportunities. These experiences could include, but are not limited to, efforts focusing on field work in the Puget Sound Region. Awards will be in the amount of $1000 and will be distributed directly to the student no later than June 01, 2023. Funds could be used at their discretion to support experiential learning opportunities. To apply for funding, faculty should provide a brief summary of the research opportunity including the educational benefit for a student, as well as an explanation of why you feel a given student would be a great candidate for this award. The application should be no longer than two pages and uploaded as a PDF below
+```
+
+```{r first page}
+#This is the first page
+```
+
+```{=tex}
+\AddToShipoutPicture*{\Wletterhead}
+\pagenumbering{gobble}
+```
+`r format(Sys.time(), '%B %d, %Y')`
+
+\blankline
+
+To Whom It May Concern:
+
+\blankline
+
+Nora Hessen has been accepted to study at Friday Harbor Labs (FHL) for the Summer quarter of 2023, where she will take 'Marine Botany: Diversity and Ecology', a course taught by Dr. Wilson Freshwater and Dr. Tom Mumford. FHL is renowned for its hands-on learning approach in addition to its focus on field and lab work. During the course, Nora will be embarking on her first field experience, living at the field station in an immersive experiential learning environment and conducting her own independent project on macroalgae of the Puget Sound. \blankline
+
+My Masters student, Sarah Tanja, is mentoring Nora as part of the pilot program, [Identity, Belonging and Inquiry in Science (IBIS)](https://environment.uw.edu/students/current-students/identity-belonging-and-inquiry-in-science-ibis-program/), which was specifically developed to better engage students from diverse backgrounds in independent marine research projects and science networking opportunities. Sarah will continue to mentor Nora during the Marine Botany Course in her role as TA. During the class students develop a project based on what they learn and their personal interests. Sarah will mentor Nora as she plans and conducts an experiment on Puget Sound *Nereocystis luetkeana* (bull kelp) gametophytes. Nora's research question is **"How does temperature affect the male/female ratio of bull kelp gametophyte survival?"** Sex-based variation in species responses to changing ocean conditions is understudied and critical for marine management and conservation. This project could provide insight into bull kelp population changes due to climate change. The project will be used as an undergraduate research experience for Nora. This research will be presented at the commencement of the course, published in the [Friday Harbor Labs Student Research Papers Archive](https://digital.lib.washington.edu/researchworks/handle/1773/16338), and made into a poster for the [Society for Advancement of Chicanos/Hispanics & Native Americans in Science (SACNAS)](https://www.sacnas.org/conference) conference to be held October 26-28, 2023 in Portland, Oregon. This work aligns with the high caliber research conducted in the [Padilla-Gamiño Lab](https://padilla-gaminolab.weebly.com/) and our [commitments](https://padilla-gaminolab.weebly.com/equity--inclusion.html) to equity and inclusion. \blankline
+
+Nora is an excellent candidate for undergrad experiential learning support; she is committed, responsible, and disciplined in her pursuit of knowledge and skills to further her education in her chosen field. She is extremely interested in pursuing field-work and is already looking beyond her time at FHL for additional pathways to hands-on experiences in marine biology. Over the course of the IBIS pilot program, Nora has shown eagerness to go hands-on, opportunities for which had been delayed or diminished in Nora's early collegiate career due to the COVID-19 pandemic.
+
+```{r second page}
+# This is the second page
+```
+
+```{=tex}
+\pagebreak 
+\BgThispage
+```
+Nora has expressed particular interest in kelp research and is excited to develop a better understanding of kelp and their importance within the Puget Sound. Her long-term goals include graduate school and deepening her expertise and honing her skills as a Marine Biologist and researcher. However, these exciting aspirations need support. As a first-time field scientist, Nora has yet to build up her 'field-kit' of foul weather gear that is vital both for successful field data collections and for a budding scientists' safety, comfort, and sense of belonging. This award would provide Nora with the necessary funds to purchase boots for tide-pooling, a good-quality rain jacket for working outside in rainy Puget Sound, warm layers, gloves, hats, rite-in-the-rain notebooks, and the myriad other gear items that students are expected to have as per the [student packing list](https://fhl.uw.edu/courses/what-to-expect-at-fhl/student-packing-list/). The award will also provide funds for WA State Ferry travel, the 3-hour drive to Anacortes from Seattle, and required course macroalgae identification guides. This award, delivered on June 1st, is timed perfectly for Nora to acquire gear prior to traveling to FHL on June 10th. This would allow Nora to jump right into field-work at Friday Harbor, focus on research, collect data, and take advantage of all the experiential learning Friday Harbor Labs has to offer. \blankline
+
+Gearing up as a first-time field scientist can be costly. Coming from a family of 5, Nora has not had access to financial support regarding her education without the help of generous scholarship programs and Federal Pell Grants. While these scholarships and grants assist with tuition and fees, they do not cover personal items that are required for students at FHL. With the additional funds from this award, Nora will have the means to access gear necessary for her field-work. Nora has excelled within the University of Washington's Marine Biology program while being a full time, job-working student who is also taking part in the IBIS program. She is passionate about her studies, and has continued to further her education and explore her major-related interests. Nora is very deserving of, and the perfect candidate for this award. This award would greatly reduce the burden of financial pressures on Nora's educational journey, and allow her to wholeheartedly engage in researching macroalgae while at Friday Harbor. I strongly urge you to consider awarding Nora Hessen \$1000 for her long-anticipated first step out into the field of Marine Biology. \blankline
+
+Thank you for your consideration.
+
+Sincerely, \blankline
+
+```{r echo=FALSE, out.width='30%'}
+#knitr::include_graphics('john-hancock-signature.png')
+```
+
+```{=tex}
+\blankline
+\blankline
+```
+Dr. Jacqueline Padilla-Gamiño
+
+Associate Professor
+
+School of Aquatic & Fishery Sciences
+
+<!-- Dr. Jacqueline Padilla-Gamiño   -->
+
+<!-- Associate Professor   -->
+
+<!-- School of Aquatic & Fishery Sciences   -->
+
+<!-- E-mail: jpgamino@uw.edu   -->
+
+<!-- URL: https://fish.uw.edu/faculty/jacqueline-padilla-gamino/ -->

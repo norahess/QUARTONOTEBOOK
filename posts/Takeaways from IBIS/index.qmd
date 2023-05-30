@@ -3,5 +3,9 @@ title: "Takeaways from IBIS"
 author: "Nora Hessen"
 date: "2023-05-23"
 categories: [IBIS]
-image: "image.jpg"
+image: "research.jpg"
 ---
+
+Within the IBIS program, I've learned a lot about the process of research. From the start, Sarah and I had brainstormed projects that we both wanted to figure the answers to, and many of these projects we're great ideas, but we simply just didn't have the time nor the capability of performing such experiments with the limited resources we had. We decided to continue Sarah's current graduate work with me tagging along to help analyze the coral samples that she had previously exposed to different concentrations of plastic leachates, and look at the changes in gene expression within the coral and the symbiots.
+
+Overall, I learned a lot about DNA/RNA extractions, the usage of R for making graphs and doing statistical analysis, and simply just communicating science by using R to create this blog. I also learned that science and research isn't always a linear path, and it's important to keep asking questions that you can explore, no matter if your project doesn't always go the way you want it to at first. I'm grateful for this experience, and I truly learned a lot from Sarah and am excited to begin my own research career and explore graduate schools to continue to do my own research as I approach my senior year.

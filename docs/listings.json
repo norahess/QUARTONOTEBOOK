@@ -2,13 +2,14 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/PCC Solutions Grant/index.html",
+      "/posts/O'neill-Quinn Grant/index.html",
       "/posts/Extraction Data/index.html",
       "/posts/Takeaways from IBIS/index.html",
       "/posts/Qubit Protocol/index.html",
       "/posts/Lab Protocol/index.html",
       "/posts/Details about IBIS Research Project/index.html",
-      "/posts/IBIS Introduction/index.html",
-      "/posts/SACNAS Proposal/index.html"
+      "/posts/IBIS Introduction/index.html"
     ]
   }
 ]

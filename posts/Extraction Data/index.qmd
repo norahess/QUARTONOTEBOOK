@@ -3,7 +3,7 @@ title: "Extraction Data"
 author: "Nora Hessen"
 date: "2023-05-23"
 categories: [IBIS, lab data]
-image: "image.jpg"
+image: "beadbashingsample.JPG"
 ---
 
 ```{r setup, include=FALSE}
@@ -129,3 +129,6 @@ The Wilcoxon signed-rank test, as a non-parametric test, determines whether ther
 To determine the direction of the shift, you would need to examine the data and calculate the median or mean of the paired differences. If the median or mean of the differences is positive, it suggests that the second sample tends to have higher values than the first sample. Conversely, if the median or mean is negative, it indicates that the first sample tends to have higher values than the second sample.
 
 To get a better understanding of the direction and magnitude of the shift, you may consider plotting the paired differences or constructing a confidence interval around the median or mean difference. This can provide additional insights into the nature of the shift and help you interpret the results more accurately.
+
+We originally had wondered if we extracted more DNA would we receive less RNA, and vice versa, as we began to notice in the lab after extracting we'd see large quantities of DNA from one sample, and then that sample would yield low RNA amounts. We wanted to see if there was any significance in this observation, and after doing the Wilcoxon signed-rank test, we see that we cannot reject our null hypothesis of there being no trend between our RNA and DNA sample, as our p-value is pretty large, and which suggests that the two do not have an exact trend to one another.
+It would have been an interesting find to see that DNA and RNA extraction amounts were related, as that could have consequences on future data collection with our coral samples, so it was important to us to look into the significance. 
